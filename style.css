@@ -40,10 +40,10 @@ hr{
     text-align: center;
 }
 /* troca cor de todas as redes sociais e linguagens */
-.fa-brands,.fa-solid{
+.fa-brands,.fa-solid,.orange{
     color: #b4851d;
 }
-.redes,.program{
+.white{
     color: white;
 }
 .introducao{
