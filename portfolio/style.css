@@ -1,0 +1,36 @@
+li{
+    color: #55d144;
+}
+h2{
+    color:rgb(255, 255, 255);
+}
+li{
+    font-size: 32px;
+    display: inline;
+    margin: 15px;
+}
+#cab{
+    margin-left: 79%;
+    
+}
+.titulo{
+    margin-left: -30px;;
+    margin-right: 75%;
+}
+.nome{
+    color:#55d144;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+hr{
+    border: 2px solid green;
+}
+.pj{
+    color:#55d144;
+    text-align: center;
+}
+.abt{
+    color:#55d144;
+    text-align: center;
+}
+
