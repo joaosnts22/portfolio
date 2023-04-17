@@ -40,11 +40,8 @@ hr{
     text-align: center;
 }
 /* troca cor de todas as redes sociais e linguagens */
-.fa-brands,.fa-solid,.orange{
+.fa-brands,.fa-solid{
     color: #b4851d;
-}
-.white{
-    color: white;
 }
 .introducao{
     font-size: 25px;
