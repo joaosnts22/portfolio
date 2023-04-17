@@ -1,14 +1,17 @@
+/* header */
 li{
-    color: #55d144;
+    color: #b4851d;
 }
 h2{
     color:rgb(255, 255, 255);
 }
+/* header */
 li{
-    font-size: 32px;
+    font-size: 35px;
     display: inline;
-    margin: 15px;
+    margin: 10px;
 }
+/* cabecalho */
 #cab{
     margin-left: 79%;
     
@@ -18,19 +21,37 @@ li{
     margin-right: 75%;
 }
 .nome{
-    color:#55d144;
+    color:#b4851d;
     margin-top: -20px;
     margin-bottom: -20px;
 }
+/* linha que separa o header do body */
 hr{
-    border: 2px solid green;
+    border: 2px solid #b4851d;
 }
+/* Projects */
 .pj{
-    color:#55d144;
+    color:#b4851d;
     text-align: center;
 }
+/* about */
 .abt{
-    color:#55d144;
+    color:#b4851d;
     text-align: center;
 }
-
+/* troca cor de todas as redes sociais e linguagens */
+.fa-brands,.fa-solid{
+    color: #b4851d;
+}
+.redes,.program{
+    color: white;
+}
+.introducao{
+    font-size: 25px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+/*.foto{
+    border-radius: 50%;
+    margin-left: 1000px;
+}*/
