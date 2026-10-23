@@ -290,13 +290,18 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 }
 .empresa h4 { margin: 0; font-size: 1.2rem; letter-spacing: -0.01em; }
 .empresa-meta { color: var(--texto-3); font-size: 14px; }
-.empresa .linha li { grid-template-columns: 128px 1fr; gap: 28px; }
-.empresa .linha::before { left: 127px; }
-.empresa .linha li::after { left: 122px; }
+.empresa .linha li { grid-template-columns: 150px 1fr; gap: 28px; }
+.empresa .linha::before { left: 149px; }
+.empresa .linha li::after { left: 144px; }
 .formacao { display: grid; gap: 16px; }
 .formacao h4 { margin: 6px 0 4px; font-size: 1.05rem; letter-spacing: -0.01em; }
 .formacao p { color: var(--texto-2); }
 .formacao .form-status { color: var(--texto-3); font-size: 14px; margin-top: 4px; }
+
+.empresa-destaque { margin-top: 28px; padding: 16px 18px; border-radius: 10px; background: var(--acento-fundo); }
+.empresa-destaque-rotulo { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--acento); }
+.empresa-destaque p { margin-top: 4px; color: var(--texto-2); font-size: 15px; }
+.empresa-destaque a { color: var(--texto); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
 
 /* contato */
 .contato { background: var(--bg-alt); }
