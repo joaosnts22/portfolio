@@ -267,7 +267,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .stack-bloco h3 { font-size: 1rem; margin-bottom: 16px; }
 
 /* trajetória */
-.linha { position: relative; display: grid; gap: 36px; max-width: 760px; }
+.linha { position: relative; display: grid; gap: 28px; }
 .linha::before { content: ""; position: absolute; left: 63px; top: 8px; bottom: 8px; width: 1px; background: var(--borda); }
 .linha li { display: grid; grid-template-columns: 64px 1fr; gap: 32px; position: relative; }
 .linha li::after {
@@ -276,8 +276,27 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
     background: var(--bg); border: 2px solid var(--acento);
 }
 .linha-data { font-family: var(--mono); color: var(--texto-3); font-size: 14px; padding-top: 2px; }
-.linha h3 { font-size: 1.12rem; margin-bottom: 6px; }
+.linha h5 { font-size: 1.05rem; margin: 0 0 6px; letter-spacing: -0.01em; }
 .linha p { color: var(--texto-2); }
+
+/* experiência e formação */
+.exp-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 48px; }
+.exp-sub { font-family: var(--mono); font-size: 13px; font-weight: 500; text-transform: uppercase; letter-spacing: .06em; color: var(--texto-3); margin-bottom: 18px; }
+.empresa, .formacao li { padding: 28px; background: var(--card); border: 1px solid var(--borda); border-radius: var(--raio); }
+.empresa-cab { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
+.empresa-logo {
+    display: grid; place-items: center; width: 44px; height: 44px; border-radius: 12px;
+    background: var(--acento-fundo); color: var(--acento); font-weight: 700; font-size: 20px;
+}
+.empresa h4 { margin: 0; font-size: 1.2rem; letter-spacing: -0.01em; }
+.empresa-meta { color: var(--texto-3); font-size: 14px; }
+.empresa .linha li { grid-template-columns: 128px 1fr; gap: 28px; }
+.empresa .linha::before { left: 127px; }
+.empresa .linha li::after { left: 122px; }
+.formacao { display: grid; gap: 16px; }
+.formacao h4 { margin: 6px 0 4px; font-size: 1.05rem; letter-spacing: -0.01em; }
+.formacao p { color: var(--texto-2); }
+.formacao .form-status { color: var(--texto-3); font-size: 14px; margin-top: 4px; }
 
 /* contato */
 .contato { background: var(--bg-alt); }
@@ -316,6 +335,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
     .hero-grid { grid-template-columns: 1fr; gap: 72px; }
     .hero-foto { justify-self: start; margin-left: 64px; }
     .sobre-grid { grid-template-columns: 1fr; gap: 0; }
+    .exp-grid { grid-template-columns: 1fr; gap: 40px; }
     .stack-grid { grid-template-columns: repeat(2, 1fr); }
     .numeros { grid-template-columns: repeat(2, 1fr); }
 }
@@ -343,9 +363,10 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
     .secao { padding: 72px 0; }
     .valores, .projetos, .stack-grid { grid-template-columns: 1fr; }
     .projeto { padding: 22px; }
-    .linha::before { left: 47px; }
-    .linha li { grid-template-columns: 48px 1fr; gap: 24px; }
-    .linha li::after { left: 42px; }
+    .empresa, .formacao li { padding: 22px; }
+    .empresa .linha::before { left: 5px; }
+    .empresa .linha li { grid-template-columns: 1fr; gap: 4px; padding-left: 28px; }
+    .empresa .linha li::after { left: 0; top: 6px; }
 }
 
 .monograma {
